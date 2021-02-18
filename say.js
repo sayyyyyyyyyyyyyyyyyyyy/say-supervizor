@@ -227,7 +227,7 @@ client.on("guildMemberAdd", member => {
        let yıl = moment(new Date(endAt).toISOString()).format('YYYY')
        let saat = moment(new Date(endAt).toISOString()).format('HH:mm')
        let kuruluş = `${gün} ${ay} ${yıl} ${saat}`;
-       log.send(`Hoş geldin ${member} - ( \`${member.id}\` ) :tada:
+       hgkanal.send(`Hoş geldin ${member} - ( \`${member.id}\` ) :tada:
 
 Hesabını \`${kuruluş} (${string})\` önce oluşturmuşsun | <@&${config.kayıtcıRolleri}> 
 
