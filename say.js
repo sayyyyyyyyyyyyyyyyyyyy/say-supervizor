@@ -158,8 +158,6 @@ client.on("ready", () => {
   });
 });
 
-
-//------------------------------------------DAVET-HESAPLAMALI-HG---------------------------------------//
 client.on("guildMemberAdd", member => {
     
     if (member.user.bot) return;
@@ -221,7 +219,7 @@ client.on("guildMemberAdd", member => {
          
        string = string.trim();
    
-       let guild = member.client.guilds.cache.get(config.guildID)
+       let guild = member.client.guilds.cache.get(settings.kanallar.guildID)
        let log = guild.channels.cache.get(settings.kanallar.hgkanal);
        let endAt = member.user.createdAt
        let gün = moment(new Date(endAt).toISOString()).format('DD')
