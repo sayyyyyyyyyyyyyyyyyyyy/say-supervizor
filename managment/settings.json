@@ -18,7 +18,8 @@
 "kanallar": {
 "taglog": "kanalid",
 "genelchat": "kanalid",
-"hgkanal" : "kanalid"
+"hgkanal" : "kanalid",
+"guildid" : "id"
 },
 
 "durumlar": {
