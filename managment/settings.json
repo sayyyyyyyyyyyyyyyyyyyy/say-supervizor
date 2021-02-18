@@ -1,0 +1,42 @@
+{
+"roller": {
+"teyitcirol": "rolid",
+"botcommand": "rolid",
+"erkekrol1": "rolid",
+"erkekrol2": "rolid",
+"erkekrol3": "rolid",
+"kadınrol1": "rolid",
+"kadınrol2": "rolid",
+"kadınrol3": "rolid",
+"kayıtsızrol": "rolid",
+"karantinarol": "rolid",
+"cezalırol": "rolid",
+"booster": "rolid",
+"ekiprol": "rolid"
+},
+
+"kanallar": {
+"taglog": "kanalid",
+"genelchat": "kanalid",
+"hgkanal" : "kanalid"
+},
+
+"durumlar": {
+    "dogru": "<a:tik:802945756754345985>",
+    "yanlis": "<a:carp:803311815441383424"
+},
+
+"taglar": {
+    "servertag": "SAY",
+    "untag": "▪"
+}, 
+
+"renk": {
+    "saykırmızı": "#ff0000",
+    "saymor": "#490024",
+    "sayblue": "#050270",
+    "saygold": "#f6fa8d",
+    "sayvip": "#f6fa8d",
+    "saymavi": "#010049"
+} 
+}
